@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-const PetCard = (props) => {
+const PetSwipeCard = (props) => {
 	return (
 		<div className="bg-[#f0f0f0] rounded-lg min-w-80">
 			<div className="px-12 py-20 rounded-lg">
@@ -37,4 +37,4 @@ const PetCard = (props) => {
 	);
 };
 
-export default PetCard;
+export default PetSwipeCard;

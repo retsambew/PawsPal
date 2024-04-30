@@ -1,4 +1,4 @@
-import PetCard from "@/components/cards/swipeCard";
+import PetSwipeCard from "@/components/cards/swipeCard";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React from "react";
@@ -28,7 +28,7 @@ const Hero = () => {
 			<div>
 				{/* Pet in need waiting for adoption card*/}
 				{/* Carousel */}
-				<PetCard />
+				<PetSwipeCard />
 			</div>
 		</div>
 	);

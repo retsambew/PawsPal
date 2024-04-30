@@ -31,13 +31,13 @@ const OrganizationCard = (props) => {
 				<div className="flex justify-between p-2">
 					<div>
 						<h4 className="font-light text-xs">Paws</h4>
-						<p className="font-medium">{props.org.pets}</p>
+						<p className="font-medium">{props.org.pets.length}</p>
 					</div>
 					<div>
 						<h4 className="font-light text-xs">Followers</h4>
 						<p className="font-medium">{props.org.followers}</p>
 					</div>
-					<Link href={`/organization/${props.org.orgHandle}`}>
+					<Link href={`/organizations/${props.org.orgHandle}`}>
 						<Button variant="white" size="sm">
 							Support
 						</Button>
