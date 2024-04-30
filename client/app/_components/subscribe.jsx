@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Subscribe = () => {
 	return (
-		<div className="flex justify-between items-center min-h-[60vh]">
+		<div className="flex justify-between items-center min-h-[60vh] mb-8">
 			<Image
 				src={"/images/subscribe.png"}
 				width={600}

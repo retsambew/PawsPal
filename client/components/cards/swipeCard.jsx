@@ -1,16 +1,18 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 
-const PetCard = () => {
+const PetCard = (props) => {
 	return (
 		<div className="bg-[#f0f0f0] rounded-lg min-w-80">
-			<Image
-				src="/images/pet.jpg"
-				alt="pet"
-				width={300}
-				height={300}
-				className="px-16 py-24 rounded-lg"
-			/>
+			<div className="px-12 py-20 rounded-lg">
+				<Image
+					src={props.src || "https://via.placeholder.com/300"}
+					alt="pet"
+					width={300}
+					height={300}
+					className="rounded-lg h-60 w-60 object-cover"
+				/>
+			</div>
 			<div className="bg-[#2d2d2d] text-white p-4">
 				<div className="flex gap-6 mb-4">
 					<div className="w-full">

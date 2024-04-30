@@ -1,6 +1,7 @@
 import Categories from "./_components/categories";
 import HomeHero from "./_components/hero";
 import PetMatches from "./_components/matches";
+import Testimonials from "./_components/testimonials";
 
 const ExplorePage = () => {
 	return (
@@ -8,6 +9,7 @@ const ExplorePage = () => {
 			<HomeHero />
 			<Categories />
 			<PetMatches />
+			<Testimonials />
 		</div>
 	);
 };

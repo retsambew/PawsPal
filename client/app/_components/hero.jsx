@@ -1,5 +1,6 @@
-import PetCard from "@/components/custom/card";
+import PetCard from "@/components/cards/swipeCard";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -14,7 +15,9 @@ const Hero = () => {
 					rescue organizations
 				</p>
 				<div className="mt-6">
-					<Button className="w-40">Adopt now</Button>
+					<Link href="/adopt">
+						<Button className="w-40">Adopt now</Button>
+					</Link>
 					<Button variant="outline" className="ml-4 w-40">
 						Help Paws
 					</Button>

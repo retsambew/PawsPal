@@ -1,0 +1,6 @@
+export const testimonials = [
+    { image: "/images/profile.jpg", name: "User 1", rating: 5, action: "Adopted 2 pets", review: "I had a great experience with True PawsPal. I was able to find the perfect pet for my family.", images: ["/images/dog.jpg", "/images/dog.jpg"] },
+    { image: "/images/profile.jpg", name: "User 2", rating: 4, action: "Fostered 1 pet", review: "I had a great experience with True PawsPal. I was able to find the perfect pet for my family.", images: ["/images/dog.jpg"] },
+    { image: "/images/profile.jpg", name: "User 3", rating: 3, action: "Adopted 1 pet", review: "I had a great experience with True PawsPal. I was able to find the perfect pet for my family.", images: ["/images/dog.jpg", "/images/dog.jpg", "/images/dog.jpg"] },
+    { image: "/images/profile.jpg", name: "User 4", rating: 5, action: "Adopted 3 pets", review: "I had a great experience with True PawsPal. I was able to find the perfect pet for my family.", images: ["/images/dog.jpg", "/images/dog.jpg"] },
+]
